@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
+        
 
         System.out.print("Por favor, digite o número da Agência: ");
         String agencia = sc.nextLine();
